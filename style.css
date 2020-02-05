@@ -1,0 +1,89 @@
+/* div {
+  border: 1px solid black;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #324e7b;
+}
+
+.main-container {
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-container {
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  background: #86a6df;
+  border-radius: 15px;
+  box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.player {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.main-album-art {
+  /* flex: 3; */
+}
+
+.main-album-info {
+  font-size: 25px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.player-controls {
+  padding-top: 25px;
+}
+
+.square {
+  height: 300px;
+  width: 300px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 20px;
+  border-radius: 10%;
+  box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.4);
+}
+
+.main-album-info,
+.player-progressbar,
+.player-controls {
+  /* flex: 1; */
+}
+
+.playlist {
+  width: 40%;
+  overflow: auto; 
+  
+}
+
+.playlist-item {
+  display: flex;
+  flex-direction: row;
+  border: 5px red;
+}
+
+.item-cover {
+  width: 30%;
+}
+
+.item-info {
+  width: 90%;
+  padding-left: 40px;
+  padding-top: 20px;
+
+}

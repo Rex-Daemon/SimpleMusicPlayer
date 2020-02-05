@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="index.js"></script>
+
+    <title>Music Player</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="player-container">
+        <div class="player">
+          <div class="main-album-art square" id="main-album-art">
+            
+          </div>
+          <div class="main-album-info" id="main-album-info">
+            
+          </div>
+          <audio controls id="main-player">
+            <source src="https://edyoda.s3.ap-south-1.amazonaws.com/public/musicfiles/Post+Malone+-+Circles.mp3" type="audio/mpeg">
+          </audio>
+          <div class="player-progressbar">---------------------------</div>
+          <div class="player-controls">
+            <button>Shuffle</button>
+            <button>Previous</button>
+            <button onclick="onMainPlay()">Play</button>
+            <button>Next</button>
+            <button onclick="onRepeat()">Repeat</button>
+          </div>
+          
+        </div>
+
+        <div class="playlist" id="playlist">
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
